@@ -1,5 +1,10 @@
-const PlayButton = () =>{
-   <h1>Hello</h1>
+function PlayButton(){
+    return(
+    <button 
+        onClick={()=> 
+        console.log("clicked")}>
+        PLAY</button>
+    )
 }
 
 export default PlayButton
