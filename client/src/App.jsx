@@ -12,8 +12,9 @@ function App() {
   return (
     <>
       <img src={quizlogo} className='logo' alt='Anime Quiz: made by Shohag'/>
-      <NavBar />
+      <nav>
       <PlayButton />
+      </nav>
       <MyFooter />
     </>
   )
