@@ -1,11 +1,3 @@
-// function gitLogo(){
-//     return(
-//         <a href="https://github.com/ShoislaNYC">
-//             <img src= "./githubLogo.png"/>
-//         </a>
-//     )
-// }
-
 function MyFooter (){
     return(
         <>

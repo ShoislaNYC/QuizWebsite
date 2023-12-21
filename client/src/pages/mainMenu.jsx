@@ -1,8 +1,12 @@
 import React from "react";
+// import './App.css'
 
-const mainMenu = () =>{
-    return(
-        <h1>Main Menu</h1>
-    )
-} 
+export function mainMenu(){
+    return (
+        <div>
+            <p>this is the main menu</p>
+        </div>
+    );
+}
+
 export default mainMenu;

@@ -1,13 +1,9 @@
-// import React from "react";
-// import { useNavigate } from "react-router-dom";
+import React from "react";
 
 function PlayButton(){
-    // const navigate = useNavigate();
     return(
-    <button 
-        onClick={()=>
-            console.log("clicked")
-        }>
+        <button onClick={()=> 
+        console.log("clicked")}>
         PLAY</button>
     )
 }
